@@ -1,25 +1,26 @@
 # Site settings
-title:
+title: Adam Payne
 email:
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Professional software engineering and web application development
+  portfolio and resume CV of Adam Payne, a software engineer with over 25 years of experience leading
+  teams in the design, implementation, testing, deployment, and maintenance of applications.
+
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "" #"https://adampayne.website" # the base hostname & protocol for your site
 
 # User setting
-owner:
+owner: Adam Payne
 email:
 facebook_username:
 twitter_username:
-github_username:
+github_username: adampayne315
 address:
   - line:
   - line:
   # Feel free to add more lines here 
 telephone:
-copyright:
+copyright: Adam Payne
 
 # API settings
 google_api_key:
