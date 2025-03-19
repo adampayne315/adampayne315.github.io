@@ -1,21 +1,73 @@
 <section id="portfolio" class="portfolio">
+
+<div class="modal fade" tabindex="-1" role="dialog" id="ercModal" aria-labelledby="ercModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+              <div class="modal-header">
+                      <h5 class="modal-title" id="ercModalLabel">IHS/Accuris Engineering Resource Center (ERC)</h5>
+                              <button type="button" class="close" data-dismiss="modal" arial-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                                </button>
+              </div>
+                                                            <div class="modal-body">
+                                                              <div class="container-fluid">
+                                                              <div class="row">
+                                                                <div class="col-md-5">
+                                                              <p >
+                                                                As a Principal Software Engineer at Accuris, I led the team responsible for maintaining and developing new features for ERC.
+                                                                This legacy system, first deployed around the turn of the millennium, had been architected as a monolith,
+                                                                3-tier system :
+                                                            
+                                                              </p>
+                                                              <ul>
+                                                                <li>Oracle database </li>
+                                                                <li>CORBA data access layer and core business logic </li>
+                                                                <li>JBoss web services and front-end applications </li>
+                                                              </ul>
+                                                              <p>As team lead, I took initiative to introduce Continuous Integration / Continuous Delivery practices to the project development lifecycle, including build, test, and release automation, and dependency management. I developed proof-of-concept, gave presentations to stakeholders in management, operations, and development. This allowed us to release higher quality software to customers on a shorter timeline.</p>
+                                                              <p>ERC provided services to all of the technical publications products at Accuris, from the flagship Engineering Workbench, to Parts Intelligence. The main business features included management of user accounts, login sessions, customer accounts, product and content licenses and authorization, and retail orders.</p>
+                                                              <p>As Accuris was divested from S&amp;P Global, we planned and executed a migration from on-premises hosting to AWS, and in the process, re-architected the system to move from the CORBA backend to individual microservices.</p>
+                                                              <p><a href="https://accuristech.com/solutions/engineering-workbench/" target="_new">See more: Engineering Workbench</a></p>
+                                                            </div>
+                                                            <div class="col-md-5">  
+                                                              <img src="img/1x-2x-Solution-EWB-Hero-Image.webp">         
+                                                            </div>  
+                                                          </div>
+                                                        </div>
+                                                        </div>
+                                                                                <div class="modal-footer">
+                                                                                        
+                                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                                                                      </div>
+                                                                                                          </div>
+                                                                                                            </div>
+</div>
+
+
   <div class="container">
+    <a name="portfolio"></a>
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h2>Our Work</h2>
+        <h2>My Work</h2>
         <hr class="small">
         <div class="row">
           <div class="col-md-6">
             <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg">
-              </a>
+              <!-- <a href="#portfolio">  -->
+                <img class="img-portfolio img-responsive" src="img/ewb.jpg" data-toggle="modal" data-target="#ercModal">
+              <!-- </a> -->
+
+<!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ercModal">
+  ERC 
+  </button> -->
+
             </div>
           </div>
           <div class="col-md-6">
             <div class="portfolio-item">
-              <a href="#">
-                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg">
+              <a href="https://automate.com/dms/variable-ops/sales-finance-module/" target="_new">
+                <img class="img-portfolio img-responsive" src="img/vehicle_merchandising_screen2.webp">
               </a>
             </div>
           </div>
